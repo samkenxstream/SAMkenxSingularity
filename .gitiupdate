@@ -1,5 +1,5 @@
 _book
-*.orig
+.orig
 target
 .DS_Store
 .classpath
@@ -8,29 +8,29 @@ target-eclipse
 .project
 .pydevproject
 bin
-*~
+~
 JavaConsole.java
 .checkstyle
-*.iml
+.iml
 .idea
-*.pyc
+.pyc
 __pycache__
-local_singularity*yml
+local_singularity/.yml
 qa_singularity.yml
 Docs/_build
 SingularityUI/npm-debug.log
-SingularityUI/node_modules/*
-SingularityUI/bower_components/*
+SingularityUI/node_modules/
+SingularityUI/bower_components/
 SingularityUI/brunchlog
 SingularityUI/app/env.coffee
 
-node_modules/*
+node_modules/
 .vagrant
 vagrant/Berksfile.lock
 SingularityUI/.vee
 
-scripts/*.log
-scripts/*.gz
+scripts/.log
+scripts/.gz
 scripts/singularity_logfetch.egg-info
 scripts/build
 scripts/dist
